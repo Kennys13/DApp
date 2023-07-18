@@ -14,7 +14,7 @@ The `App.js` file contains the frontend code for the React DApp. It provides a u
 
 To run the DApp locally, follow these steps:
 
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `git clone https://github.com/Kennys13/DApp.git`
 2. Install dependencies: `npm install`
 3. Update the contract address and ABI in the `App.js` file with your deployed contract details.
 4. Start the development server: `npm start`
