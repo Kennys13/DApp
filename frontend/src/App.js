@@ -56,6 +56,7 @@ function App() {
         // Wait for the transaction to be mined
         await tx.wait();
 
+        // Manually update the contract state by calling the result() function
         const resultVal = await contract.result();
         setResult(resultVal.toString());
 
@@ -84,6 +85,7 @@ function App() {
         // Wait for the transaction to be mined
         await tx.wait();
 
+        // Manually update the contract state by calling the result() function
         const resultVal = await contract.result();
         setResult(resultVal.toString());
 
